@@ -21,7 +21,7 @@ var student = {
 var foods = ["Seblak", "Indomie", "Ketoprak"];
 foods.push("Soto ayam")
 
-var games = ["Mobile Legend", "VOA", "PUBG", "Candy Crush"]
+var games = ["Mobile Legend", "AOV", "PUBG", "Candy Crush"]
 games.pop()
 
 
