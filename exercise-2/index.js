@@ -18,3 +18,7 @@ const identify = names.map((name, i) => {
     else if (name.includes("Mrs.")) console.log(`${i + 1}. ${name + " (female)"}`)
 }
 )
+
+const searchName = name =>
+    names.filter(x => x.includes(name) ? console.log(x) : " ");
+searchName("Hemsworth");
