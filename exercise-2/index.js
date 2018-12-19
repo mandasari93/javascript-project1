@@ -9,7 +9,7 @@ const names = [
 ];
 
 //lv: 0
-names.map(name => console.log("Meet with: " + name));
+names.map(name => console.log(`Meet with:  ${name}`));
 
 //lv: 1
 const newNames = names.filter(newNames => newNames.includes("Mr."));
