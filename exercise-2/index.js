@@ -31,7 +31,7 @@ searchName("Hemsworth");
 const names1 = ["Mr. Fahri", "Mr. Abdul", "Mrs. Josephhine"];
 const names2 = ["Mr. Joseph", "Mr. Paul", "Mrs. Paula", "Mr. Hakim"];
 const together = names1.concat(names2);
-// console.log(together);
+console.log(together);
 
 //lv: 5
 const mixed = [
