@@ -16,10 +16,10 @@ const newNames = names.filter(newNames => newNames.includes("Mr."));
 console.log(newNames);
 
 //lv: 2
-const identify = names.map((name, i) => {
-  if (name.includes("Mr.")) console.log(`${i + 1}. ${name + " (male)"}`);
+const identify = names.map((name, index) => {
+  if (name.includes("Mr.")) console.log(`${index + 1}. ${name + " (male)"}`);
   else if (name.includes("Mrs."))
-    console.log(`${i + 1}. ${name + " (female)"}`);
+    console.log(`${index + 1}. ${name + " (female)"}`);
 });
 
 //lv: 3
