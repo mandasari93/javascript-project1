@@ -19,7 +19,7 @@ console.log(newNames);
 const identify = names.map((name, index) => {
   if (name.includes("Mr.")) console.log(`${index + 1}. ${name} " (male)"`);
   else if (name.includes("Mrs."))
-    console.log(`${index + 1}. ${name } " (female)"`);
+    console.log(`${index + 1}. ${name} " (female)"`);
 });
 
 //lv: 3
